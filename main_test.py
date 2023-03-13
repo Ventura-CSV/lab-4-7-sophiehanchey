@@ -27,7 +27,7 @@ def test_main_1():
 def test_main_2():
     captureOut = io.StringIO()
     sys.stdout = captureOut
-    datastr = '1\n2\n3\n4\n5\n200\n100'
+    datastr = '1\n2\n3\n4\n5\n100'
     sys.stdin = io.StringIO(datastr)
 
     main.main()
