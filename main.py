@@ -1,16 +1,13 @@
 def main():
     numbers = []
-    previousinput
     
     while True:
         currentinput = int(input('Please enter a number: '))
-        
         numbers.append(currentinput)
+        print(numbers[-1])
 
-        if(currentinput>previousinput):
+        if(currentinput>numbers[-2]):
             break
-        else:
-            previousinput = currentinput
             
     
 
