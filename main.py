@@ -4,6 +4,8 @@ def main():
     previousinput = currentinput
     
     while currentinput <= previousinput:
+        currentinput = int(input('Please enter another number: '))
+        
         numbers.append(currentinput)
         previousinput = currentinput
 
