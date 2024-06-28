@@ -1,10 +1,11 @@
 def main():
     numbers = []
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    currentinput = int(input('Enter a number: '))
+    previousinput = currentinput
+    
+    while currentinput <= previousinput:
+        numbers.append(currentinput)
+        previousinput = currentinput
 
     ########################################
     # Do not delete the return statement
