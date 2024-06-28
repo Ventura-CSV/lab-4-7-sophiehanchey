@@ -1,13 +1,18 @@
 def main():
     numbers = []
-    currentinput = int(input('Enter a number: '))
-    previousinput = currentinput
+    previousinput
     
-    while currentinput <= previousinput:
-        currentinput = int(input('Please enter another number: '))
+    while True:
+        currentinput = int(input('Please enter a number: '))
         
         numbers.append(currentinput)
-        previousinput = currentinput
+
+        if(currentinput>previousinput):
+            break
+        else:
+            previousinput = currentinput
+            
+    
 
     ########################################
     # Do not delete the return statement
