@@ -4,9 +4,9 @@ def main():
     while True:
         currentinput = int(input('Please enter a number: '))
         numbers.append(currentinput)
-        print(numbers[-1])
+        print(numbers[-2])
 
-        if(currentinput>numbers[-2]):
+        if(currentinput>numbers[-2] or len(numbers) < 1):
             break
             
     
